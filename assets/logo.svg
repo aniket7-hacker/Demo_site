@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="redGlow" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff2a2a" />
+      <stop offset="70%" stop-color="#e50000" />
+      <stop offset="100%" stop-color="#b30000" />
+    </radialGradient>
+    <filter id="subtleDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Red Circle -->
+  <circle cx="250" cy="250" r="230" fill="url(#redGlow)" filter="url(#subtleDrop)"/>
+  <!-- TTT Typography in Classic Serif font -->
+  <text x="250" y="290" 
+        font-family="'Playfair Display', 'DM Serif Display', 'Georgia', serif" 
+        font-size="160" 
+        font-weight="700" 
+        fill="#FFFFFF" 
+        text-anchor="middle" 
+        letter-spacing="2">TTT</text>
+</svg>
